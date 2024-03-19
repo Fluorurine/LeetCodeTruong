@@ -3,6 +3,8 @@
  */
 package com.truongvm;
 
+import com.arrayandhash.ArrayAndHashSolution;
+
 public class App {
     public String getGreeting() {
         return "Hello World!";
@@ -10,5 +12,7 @@ public class App {
 
     public static void main(String[] args) {
         System.out.println(new App().getGreeting());
+        ArrayAndHashSolution test = new ArrayAndHashSolution();
+        System.out.println(test.containsDuplicate(new int[] { 1, 2, 3, 4, 5, 5 }));
     }
 }
